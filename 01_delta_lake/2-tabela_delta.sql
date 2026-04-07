@@ -65,3 +65,14 @@ select * from vendas version as of 2
 
 CREATE or REPLACE VIEW vendas_view AS
 select * from vendas version as of 2
+
+--  ==========================================================================================
+
+-- RESTAURANDO UMA TABELA QUE FOI DELETADA
+RESTORE TABLE vendas version as of 2 -- neste caso foi restaurado a partir da versão 2 da tabela, segundo o describe history da tabela vendas.
+
+-- ===========================================================================================
+
+-- DELETANDO TABELA
+
+DELETE FROM vendas
