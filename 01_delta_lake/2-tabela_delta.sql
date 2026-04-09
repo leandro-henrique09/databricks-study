@@ -73,6 +73,6 @@ RESTORE TABLE vendas version as of 2 -- neste caso foi restaurado a partir da ve
 
 -- ===========================================================================================
 
--- DELETANDO TABELA
+-- DELETANDO DADOS DA TABELA
 
 DELETE FROM vendas
