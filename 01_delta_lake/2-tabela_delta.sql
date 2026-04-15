@@ -11,8 +11,8 @@ CREATE TABLE vendas (
 -- =====================================================================================
 
 -- INSERINDO DADOS NA TABELA
-
-INSERT INTO vendas (Id, nome_cliente, data_compra, valor_compra) VALUES
+VALUES
+INSERT INTO vendas (Id, nome_cliente, data_compra, valor_compra) 
 (1, 'Edmilson', '2024-10-23 10:00:00', 150.75),
 (2, 'Marta', '2024-10-23 11:00:00', 200.50),
 (3, 'Lucas', '2024-10-23 12:00:00', 300.00),
